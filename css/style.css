@@ -1,8 +1,8 @@
 
 body {
-  font-family:"Roboto", "Avenir Next", sans-serif;;
+  font-family:"Bad+Script", "Alice","Proza+Libre", sans-serif;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 18px;
   background: #f0f0f0;
   font-weight: 300;
   overflow-x: hidden;
@@ -21,6 +21,9 @@ a:hover {
 a:focus, a:active {
   outline: none;
 }
+strong{
+  color: rgb(42,9,47);
+}
 
 h1,
 h2,
@@ -28,9 +31,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Alegreya", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: rgb(183,3,188);
 }
 
 
@@ -190,9 +194,9 @@ h6 {
 
 
 header {
-  padding: 2em 0;
+  padding: 2.2em 0;
   background-color: #fff;
-  border-bottom: 6px solid rgb(213,84,159);
+  border-bottom: 6px solid rgb(42,9,47);
 }
 @media screen and (max-width: 768px) {
   header {
@@ -311,10 +315,29 @@ header .fh5co-navbar-brand {
   margin-left: 120px;
   margin-top: -40px;
 }
+
+#boton{
+   position: absolute;
+   padding: 5px;
+   background: rgb(42,9,47);
+}
+
+#boton:hover{
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
     top: 0px;
+  }
+
+  .yeiny{
+   display: none;
+  }
+
+  #boton{
+    display: none;
   }
 }
 

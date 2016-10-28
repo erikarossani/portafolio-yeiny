@@ -6,7 +6,6 @@
 }
 
 body{
-    font-family: "Roboto", "Avenir Next", sans-serif;
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -41,7 +40,7 @@ body{
 	position: absolute;
 	font-size: 8vw;
 	font-weight: bolder;
-	color: #fff;
+	color:rgb(221,221,221);
 	text-transform: uppercase;
 	pointer-events: none;
 	line-height: 1;
@@ -61,8 +60,9 @@ body{
 	top:0;
 	left: 0;
 	position: absolute;
-	font-size: 8vw;
-	color: #fff;
+	font-size: 3vw;
+	color:rgb(221,221,221);
+	font-family: "Abhaya+Libre";
 	text-transform: uppercase;
 	pointer-events: none;
 	line-height: 1;
@@ -90,7 +90,7 @@ a{
 	cursor: pointer;
 	text-align: center;
 	pointer-events: auto;
-	color: #333;
+	color: #fff;
 	border-radius: 1.85em;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -98,7 +98,7 @@ a{
 	font-size: 1.2em;
 	padding: 1em 2em;
 	margin: 0 auto;
-    background: #f0f0f0;
+    background: rgb(213,0,218);
     opacity: .8;
 	-webkit-transition: background 0.3s, opacity 0.3s;
 	transition: background 0.3s, opacity 0.3s;
@@ -109,7 +109,7 @@ a{
 }
 
 .btn:hover {
-      background: #f0f0f0;
+      background: rgb(213,0,218);
       opacity: 1;
 }
 
