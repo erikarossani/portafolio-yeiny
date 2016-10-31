@@ -1,9 +1,5 @@
 ;(function () {
 	
-	"use strict";
-
-
-
 	// iPad and iPod detection	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
@@ -51,21 +47,20 @@
 	});
 
 	$(function() {
-		
-		$( '#ri-grid' ).gridrotator( {
-			rows : 3,
-			// number of columns 
-			columns : 6,
-			w1024 : { rows : 3, columns : 5 },
-			w768 : {rows : 3,columns : 4 },
-			w480 : {rows : 3,columns : 3 },
-			w320 : {rows : 2,columns : 2 },
-			w240 : {rows : 1,columns : 1 },
-			preventClick : false
-		});
-		
-	});
 
+	$( '#ri-grid' ).gridrotator( {
+		rows : 3,
+		// number of columns 
+		columns : 6,
+		w1024 : { rows : 3, columns : 5 },
+		w768 : {rows : 3,columns : 4 },
+		w480 : {rows : 3,columns : 3 },
+		w320 : {rows : 2,columns : 2 },
+		w240 : {rows : 1,columns : 1 },
+		preventClick : false
+	} );
+
+});
 
 
 }());

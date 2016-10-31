@@ -22,7 +22,7 @@ a:focus, a:active {
   outline: none;
 }
 strong{
-  color: rgb(42,9,47);
+  color: #b00271;
 }
 
 h1,
@@ -34,7 +34,7 @@ h6 {
   font-family: "Alegreya", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgb(183,3,188);
+  color: #b00271;
 }
 
 
@@ -173,9 +173,9 @@ h6 {
 }
 @media screen and (max-width: 768px) {
   .fh5co-table {
-    display: block !important;
-    height: inherit !important;
-    width: inherit !important;
+    display: block;
+    height: inherit;
+    width: inherit;
   }
 }
 .fh5co-table .fh5co-table-cell {
@@ -186,9 +186,9 @@ h6 {
 }
 @media screen and (max-width: 768px) {
   .fh5co-table .fh5co-table-cell {
-    display: block !important;
-    height: inherit !important;
-    width: inherit !important;
+    display: block;
+    height: inherit;
+    width: inherit;
   }
 }
 
@@ -324,6 +324,11 @@ header .fh5co-navbar-brand {
 
 #boton:hover{
   color: #fff;
+}
+
+#image{
+  width: 500px;
+  height: 420px;
 }
 
 @media screen and (max-width: 768px) {
