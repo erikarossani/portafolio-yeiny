@@ -331,6 +331,15 @@ header .fh5co-navbar-brand {
   height: 420px;
 }
 
+.proyectos{
+  color: #fff;
+}
+
+.presentacion{
+  width: 350px;
+  height: 175px;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
