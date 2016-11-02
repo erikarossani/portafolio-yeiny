@@ -40,7 +40,7 @@ body{
 	position: absolute;
 	font-size: 8vw;
 	font-weight: bolder;
-	color:#fff;
+	color:rgb(240,240,240);
 	text-transform: uppercase;
 	pointer-events: none;
 	line-height: 1;
@@ -61,7 +61,7 @@ body{
 	left: 0;
 	position: absolute;
 	font-size: 3vw;
-	color:#fff;
+	color:rgb(240,240,240);
 	font-family: "Abhaya+Libre";
 	text-transform: uppercase;
 	pointer-events: none;
