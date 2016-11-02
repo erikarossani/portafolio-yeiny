@@ -317,8 +317,9 @@ header .fh5co-navbar-brand {
 }
 
 #boton{
-   position: absolute;
+   position: relative;
    padding: 5px;
+   margin-top: 55px;
    background: rgb(42,9,47);
 }
 
@@ -329,6 +330,15 @@ header .fh5co-navbar-brand {
 #image{
   width: 500px;
   height: 420px;
+}
+
+.proyectos{
+  color: #fff;
+}
+
+.presentacion{
+  width: 100%;
+  height: 175px;
 }
 
 @media screen and (max-width: 768px) {
@@ -342,7 +352,7 @@ header .fh5co-navbar-brand {
   }
 
   #boton{
-    display: none;
+    margin-top: 90px;
   }
 }
 

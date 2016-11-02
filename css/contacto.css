@@ -1,21 +1,99 @@
-.circle {
-   width: 300px;
-   height: 400px;
-   border-radius: 100%;
-   background: white;
-   opacity: 0.1;
-   position: fixed;
-   top: 0px;
-   left: 0;
-   z-index: 999;
-}
-path {
-   fill: transparent;
-   transform-origin: center bottom;
-   transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+.ykContact{
+   width: 33em;
+   position: relative;
 }
 
-.invisible {
-   opacity: 0;
-   transform: scale(0);
+.cv{
+   width: 1.7em;
+   position: absolute;
+   top: 83%;
+   left: 50.5%;
+   z-index: 1;
+}
+
+.vitae{
+   position: absolute;
+   top: 90%;
+   left: 53%;
+   font-size: 20px;
+   color: #2A092F;
+
+
+}
+
+.git{
+   width: 1.7em;
+   position: absolute;
+   top: 18.7%;
+   left: 25%;
+   z-index: 1;
+}
+
+.hub{
+   position: absolute;
+   top: 17%;
+   left: 4%;
+   font-size: 20px;
+   color: #2A092F;
+}
+
+.in{
+   width: 1.7em;
+   position: absolute;
+   top: 62.5%;
+   left: 25.4%;
+   z-index: 1;
+}
+
+.linked{
+   position: absolute;
+   top: 61%;
+   left: 3%;
+   font-size: 20px;
+   color: #2A092F;
+
+}
+
+.mail{
+   position: absolute;
+   left: 76.3%;
+   top: 18%;
+   font-size: 17px;
+   color: #2A092F;
+}
+
+.number{
+   position: absolute;
+   left: 76.3%;
+   top: 61%;
+   font-size: 20px;
+   color: #2A092F;
+}
+
+.none{
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+   .block{
+      display: none;
+   }
+
+   .none{
+      display: block;
+   }
+
+   .correo{
+      width: 30%;
+      margin: 10px;
+   }
+
+   .datos{
+      font-weight: bold;
+   }
+   .ykg{
+      font-size: 15px;
+   }
+     
 }

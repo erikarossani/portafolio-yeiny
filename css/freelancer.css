@@ -166,7 +166,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 section h2 {
   margin: 0;
@@ -213,7 +213,7 @@ section.success {
   height: 20px;
   font-size: 20px;
   text-align: center;
-  top: 50%;
+  top: 20%;
   margin-top: -12px;
   color: white;
 }
@@ -229,7 +229,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 20px;
   }
 }
 .floating-label-form-group {
@@ -442,7 +442,7 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
-  margin: 0;
+  margin: 30px;
   font-size: 3em;
 }
 .portfolio-modal .modal-content img {
@@ -489,4 +489,19 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.img-tamano{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contenido{
+  color: #2a092f;
+}
+
+@media (max-width: 480px) {
+ .portfolio-modal .modal-content h2{
+  font-size:1.5em;
+  }
 }

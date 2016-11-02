@@ -40,7 +40,7 @@ body{
 	position: absolute;
 	font-size: 8vw;
 	font-weight: bolder;
-	color:rgb(221,221,221);
+	color:#fff;
 	text-transform: uppercase;
 	pointer-events: none;
 	line-height: 1;
@@ -61,7 +61,7 @@ body{
 	left: 0;
 	position: absolute;
 	font-size: 3vw;
-	color:rgb(221,221,221);
+	color:#fff;
 	font-family: "Abhaya+Libre";
 	text-transform: uppercase;
 	pointer-events: none;
@@ -77,7 +77,7 @@ body{
 	justify-content: center;
 	margin: 0;
 }
-}
+
 
 /* Buttons */
 a{
@@ -98,7 +98,7 @@ a{
 	font-size: 1.2em;
 	padding: 1em 2em;
 	margin: 0 auto;
-    background: rgb(213,0,218);
+    background: #2a092f;
     opacity: .8;
 	-webkit-transition: background 0.3s, opacity 0.3s;
 	transition: background 0.3s, opacity 0.3s;
@@ -109,14 +109,14 @@ a{
 }
 
 .btn:hover {
-      background: rgb(213,0,218);
+      background: #b00271;
       opacity: 1;
 }
 
 .btn--trigger {
 	width: 15em;
 	position: absolute;
-	bottom: 2em;
+	bottom: 3em;
 	left: 50%;
 	margin: 0 0 0 -7.5em;
 }
@@ -124,4 +124,16 @@ a{
 .btn--hidden {
 	opacity: 0;
 	pointer-events: none;
+}
+
+@media (max-width: 480px) {
+	.front{
+	     font-size: 4vw;
+    }
+
+    #typewriter{
+        top: -30px;
+	    font-size: 9vw;
+    }
+
 }

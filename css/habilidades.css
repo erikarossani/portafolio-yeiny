@@ -9,3 +9,38 @@
 .color{
 	background: #b00271;
 }
+.titulo{
+	color: rgb(42,9,47);
+}
+.inter{
+	color: #fff;
+}
+
+.icon{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.html5{
+	margin-top: 20px;
+	color: #FFF;
+}
+.b{
+	width: 7em;
+}
+
+@media (max-width: 480px) {
+
+	.habilidad{
+	background: rgb(42,9,47);
+	width: 300px;
+	height: 350px;
+	margin-top: 50px;
+	margin-left: 10px;
+    }
+
+    .color{
+	background: #b00271;
+}
+
+}
