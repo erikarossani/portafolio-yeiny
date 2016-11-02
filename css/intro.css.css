@@ -6,7 +6,6 @@
 }
 
 body{
-	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -133,6 +132,7 @@ a{
 	.front{
 	     font-size: 15px;
 	     top: 100px;
+	     text-align: center;
     }
 
 
@@ -154,6 +154,12 @@ a{
          left: 0;
          margin: auto;
          overflow: hidden; 
+    }
+
+    body{
+	     color: rgb(44,10,49);
+	     -webkit-font-smoothing: antialiased;
+	     -moz-osx-font-smoothing: grayscale;
     }
 
 }
