@@ -1,8 +1,8 @@
 *{
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    -webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
 }
 
 body{
@@ -129,14 +129,19 @@ a{
 }
 
 @media (max-width: 480px) {
+
 	.front{
 	     font-size: 4vw;
-	     top: 23px;
+	     top: 40px;
     }
 
     #typewriter{
-        top: 0;
+        top: 20px;
 	    font-size: 9vw;
+    }
+
+    .btn--trigger{
+    	bottom: 0;
     }
 
 }
