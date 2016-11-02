@@ -131,14 +131,14 @@ a{
 @media (max-width: 480px) {
 
 	.front{
-	     font-size: 30px;
+	     font-size: 15px;
 	     top: 64px;
 	     color: #fff;
     }
 
     #typewriter{
         top: 40px;
-	    font-size: 3em;
+	    font-size: 2.1em;
 	    text-align: center;
 	    color: #fff;
     }
