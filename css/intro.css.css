@@ -129,18 +129,6 @@ a{
 }
 
 @media (max-width: 480px) {
-	body{
-		background-image: url("../img/fondo-responsive.jpg");
-        background-size: 100vw 100vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        padding-bottom: 30px;
-    }
-
-    .video{
-    	display: none;
-    }
 
 	.front{
 	     font-size: 4vw;
