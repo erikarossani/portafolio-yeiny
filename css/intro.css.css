@@ -1,8 +1,8 @@
 *{
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+    -webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	 padding: 0;
+	 margin: 0;
 }
 
 body{
@@ -127,20 +127,21 @@ a{
 	pointer-events: none;
 }
 
+
+
 @media (max-width: 480px) {
 
 	.front{
 	     font-size: 15px;
 	     top: 100px;
-	     color: #fff;
 	     text-align: center;
     }
+
 
     #typewriter{
         top: 70px;
 	    font-size: 2.1em;
 	    text-align: center;
-	    color: #fff;
     }
 
     .btn--trigger{
